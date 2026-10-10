@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Happy 2nd monthsary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body class="locked">
+<canvas id="sky" aria-hidden="true"></canvas>
+
+<!-- Amplop -->
+<div id="intro">
+  <button class="env" id="env" aria-label="Buka surat">
+    <span class="back"></span>
+    <span class="paper"><i>Happy 2nd monthsary</i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.4C.9 8 3 4.5 6.4 4.5c2.1 0 3.7 1.1 5.6 3.2 1.9-2.1 3.5-3.2 5.6-3.2C21 4.5 23.100 8 21.600 11.600 19.500 16.400 12 21 12 21z"/></svg></span>
+    <span class="front"></span>
+    <span class="flap"></span>
+    <span class="seal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.500-4.600-9.600-9.400C.9 8 3 4.500 6.400 4.500c2.100 0 3.700 1.100 5.600 3.200 1.900-2.100 3.500-3.200 5.600-3.200C21 4.500 23.100 8 21.600 11.600 19.500 16.400 12 21 12 21z"/></svg></span>
+    <span class="to" id="toName"></span>
+  </button>
+  <p class="intro-hint">Ada surat kecil untuk kamu. Ketuk untuk membuka suratnya, dan nyalain suaranya ya.</p>
+</div>
+
+<main id="main">
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="title">
+    <h1 id="title"><span id="t1"></span><span class="l2" id="t2"></span></h1>
+    <p class="sub" id="sub"></p>
+    <svg class="beat" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.500-4.600-9.600-9.400C.9 8 3 4.500 6.400 4.500c2.100 0 3.700 1.100 5.600 3.200 1.900-2.100 3.500-3.200 5.600-3.200C21 4.500 23.100 8 21.600 11.600 19.500 16.400 12 21 12 21z"/></svg>
+    <span class="cue" aria-hidden="true"></span>
+  </section>
+
+  <!-- Hitung waktu -->
+  <section aria-labelledby="h-count">
+    <h2 id="h-count" class="reveal">Sudah selama ini aku jadi milik kamu, kamu jadi milik aku</h2>
+    <p class="lede reveal">Dan setiap detiknya, aku bersyukur bisa sama kamu.</p>
+    <div class="count reveal" id="count" role="timer" aria-live="off">
+      <div><b id="cd">0</b><span>hari</span></div>
+      <div><b id="ch">0</b><span>jam</span></div>
+      <div><b id="cm">0</b><span>menit</span></div>
+      <div><b id="cs">0</b><span>detik</span></div>
+    </div>
+  </section>
+
+  <!-- Perjalanan -->
+  <section aria-labelledby="h-path">
+    <h2 id="h-path" class="reveal">Cerita kita</h2>
+    <p class="lede reveal">Dari awal yang sederhana sampai hari ini.</p>
+    <div class="path" id="path"></div>
+  </section>
+
+  <!-- Galeri -->
+  <section aria-labelledby="h-wall">
+    <h2 id="h-wall" class="reveal">Potongan hari-hari kita</h2>
+    <p class="lede reveal">Ketuk fotonya, aku mau kamu melihatnya lebih dekat.</p>
+    <div class="wall" id="wall"></div>
+  </section>
+
+  <!-- Video -->
+  <section id="vidSec" aria-labelledby="h-vid">
+    <h2 id="h-vid" class="reveal">Video kita</h2>
+    <p class="lede reveal">Geser ke samping untuk melihat yang lain.</p>
+    <div class="reel reveal" id="reel">
+      <div class="track" id="track" tabindex="0" aria-label="Video, geser ke samping"></div>
+      <div class="reelnav">
+        <button class="rb" id="vprev" aria-label="Video sebelumnya">&#8249;</button>
+        <div class="dots" id="dots"></div>
+        <button class="rb" id="vnext" aria-label="Video berikutnya">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alasan -->
+  <section aria-labelledby="h-why">
+    <h2 id="h-why" class="reveal">Kenapa aku sayang kamu</h2>
+    <p class="lede reveal">Ketuk hatinya satu per satu.</p>
+    <div class="reasons" id="reasons"></div>
+  </section>
+
+  <!-- Surat -->
+  <section aria-labelledby="h-letter">
+    <h2 id="h-letter" class="reveal">Untukmu, dari aku</h2>
+    <p class="lede reveal">Aku tulis pelan-pelan, supaya kamu bisa membacanya pelan-pelan.</p>
+    <div class="letter reveal" id="letterBox">
+      <p id="letter" class="caret" aria-live="polite"></p>
+    </div>
+    <button class="skip" id="skip" hidden>Tampilkan semuanya</button>
+  </section>
+
+  <!-- Penutup -->
+  <section class="finale" aria-labelledby="h-end">
+    <h2 id="h-end" class="reveal">Bulan ketiga sudah menunggu kita</h2>
+    <p class="big reveal" id="nextLine"></p>
+    <button class="cta reveal" id="love">Aku juga sayang kamu</button>
+    <p class="answer" id="answer" aria-live="polite"></p>
+  </section>
+
+  <footer id="foot"></footer>
+</main>
+
+<!-- Tombol musik -->
+<button class="musicbtn on" id="music" aria-label="Matikan musik" aria-pressed="true" title="Musik"><i></i><i></i><i></i><i></i></button>
+
+<!-- Lightbox foto -->
+<div id="lb" role="dialog" aria-modal="true" aria-label="Foto">
+  <button class="x" id="lbx" aria-label="Tutup">&times;</button>
+  <div class="card"><div class="ph" id="lbph"></div><div class="cap" id="lbcap"></div></div>
+</div>
+
+<script src="script.js?v=1"></script>
+</body>
+</html>
