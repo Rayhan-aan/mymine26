@@ -10,7 +10,7 @@ const CONFIG = {
     { title: "Kita bertemu", text: "Waktu itu aku belum tahu bahkan ga nyangka, kamu bakal jadi orang yang paling sering aku pikirin, orang yang aku libatin disetiap kegiatan aku." },
     { title: "Mulai dekat", text: "Dari awal DC an cuman buat main Ml, buat ngobrol dan sekarang jadi cerita panjang yang nggak mau aku akhiri." },
     { title: "Hari kita jadian", text: "Hari paling deg-degan, keputusan paling benar yang pernah aku ambil dan aku ga nyangka kita bisa sampai ke titik ini." },
-    { title: "Dua bulan bersamamu", text: "Dan rasanya masih banyak yang ingin kita lakukan bareng, masih banyak yang pengen aku lakuin bareng kamu." }
+    { title: "Dua bulan bersamamu", text: "Dan rasanya masih banyak hal yang pengen kita lakukan bareng, masih banyak yang pengen aku lakuin bareng kamu." }
   ],
   photos: [   // "src" boleh foto (jpg/png) ATAU video (mp4). Video otomatis dikenali dari ekstensinya. Kosong = bingkai hati.
     { src: "1.png", caption: "Main roblox bareng" },
@@ -44,7 +44,7 @@ const CONFIG = {
   letter:
 `Happy 2nd monthsary, sayangku ❤️
 
-Nggak terasa ya, sekarang kita sudah sampai di dua bulan. Kalau dipikir-pikir, dua bulan mungkin masih terdengar sebentar dibandingkan dengan perjalanan panjang yang mungkin masih ingin kita lalui bersama. Tapi buat aku, dua bulan ini sudah cukup untuk membuat kamu menjadi seseorang yang begitu berarti dalam hidup aku.
+Nggak terasa ya, sekarang kita sudah sampai di dua bulan. Kalau dipikir-pikir, dua bulan mungkin masih terdengar sebentar dibandingkan dengan perjalanan panjang yang mungkin masih pengen kita lalui bersama. Tapi buat aku, dua bulan ini sudah cukup untuk membuat kamu menjadi seseorang yang begitu berarti dalam hidup aku.
 
 Dari awal kita kenal, mulai dekat, sampai akhirnya kita bisa sampai di titik ini, ada begitu banyak hal yang sudah kita lewati. Ada tawa, cerita, perhatian, rasa kangen, mungkin juga ada sedikit kesalahpahaman dan perbedaan. Tapi justru dari semua itu aku semakin sadar bahwa hubungan bukan tentang selalu bahagia setiap saat, melainkan tentang bagaimana dua orang tetap memilih untuk saling memahami ketika keadaan nggak selalu mudah.
 
@@ -52,27 +52,27 @@ Aku juga sadar selama dua bulan ini aku belum menjadi pasangan yang sempurna bua
 
 Aku masih belajar. Belajar memahami kamu, belajar mengerti apa yang kamu butuhkan, belajar bagaimana cara memperlakukan kamu dengan lebih baik, dan belajar menjadi seseorang yang bukan hanya bisa menemani kamu saat semuanya baik-baik saja, tapi juga bisa tetap ada ketika kamu sedang capek, sedih, marah, atau sedang nggak baik-baik saja.
 
-Terima kasih karena sampai hari ini kamu masih memilih untuk tetap bersama aku. Terima kasih karena kamu masih memberikan aku kesempatan untuk mengenal kamu lebih dalam. Terima kasih untuk setiap perhatian kecil, setiap pesan, setiap cerita, setiap waktu yang kamu luangkan, setiap tawa, dan bahkan setiap rasa kesal yang pernah kita lewati.
+Terima kasih karena sampai hari ini kamu masih memilih untuk bareng sama aku. Terima kasih karena kamu masih memberikan aku kesempatan untuk mengenal kamu lebih dalam. Terima kasih untuk setiap perhatian kecil, setiap pesan, setiap cerita, setiap waktu yang kamu luangkan, setiap tawa, dan bahkan setiap rasa kesal yang pernah kita lewati.
 
 Mungkin ada beberapa hal yang menurut kamu sederhana, tapi buat aku justru hal-hal kecil seperti itu yang membuat aku semakin sayang sama kamu.
 
-Aku suka bagaimana kehadiran kamu perlahan menjadi bagian dari keseharianku. Ada saat di mana aku ingin menceritakan sesuatu ke kamu, ingin mendengar cerita kamu, ingin tahu bagaimana hari kamu, atau sekadar ingin memastikan kamu baik-baik saja. Tanpa sadar, kamu sudah menjadi seseorang yang keberadaannya aku tunggu dan aku cari.
+Aku suka bagaimana kehadiran kamu perlahan menjadi bagian dari keseharian aku. Ada saat di mana aku pengen cerita sesuatu ke kamu, pengen mendengar cerita kamu, pengen tahu bagaimana hari kamu, atau sekedar ingin memastikan kamu baik-baik saja. Tanpa sadar, kamu sudah menjadi seseorang yang keberadaannya aku tunggu dan aku cari.
 
 Aku nggak tahu perjalanan kita ke depannya akan seperti apa. Aku nggak bisa menjanjikan kalau hubungan ini akan selalu berjalan mulus. Pasti akan ada hari di mana kita berbeda pendapat, ada salah paham, ada rasa kecewa, bahkan mungkin ada saat di mana kita sama-sama merasa lelah.
 
 Tapi kalau nanti hari itu datang, aku berharap kita nggak mudah menyerah.
 
-Aku berharap kita tetap memilih untuk bicara daripada diam. Tetap memilih memahami daripada menyalahkan. Tetap memilih memperbaiki daripada meninggalkan. Karena aku nggak ingin hubungan ini hanya bertahan selama semuanya terasa mudah. Aku ingin kita belajar bagaimana caranya tetap bertahan ketika keadaan sedang nggak baik.
+Aku berharap kita tetap memilih untuk bicara daripada diam. Tetap memilih memahami daripada menyalahkan. Tetap memilih memperbaiki daripada meninggalkan. Karena aku nggak mau hubungan kita hanya bertahan selama semuanya terasa mudah. Aku ingin kita belajar bagaimana caranya tetap bertahan ketika keadaan sedang nggak baik.
 
 Aku ingin mengenal lebih banyak sisi dari kamu. Bukan cuma versi kamu yang sedang bahagia dan tersenyum, tapi juga versi kamu yang sedang sedih, lelah, marah, takut, bingung, atau bahkan sedang kehilangan semangat.
 
-Kalau suatu saat kamu merasa dunia terlalu berat, aku ingin kamu tahu bahwa kamu punya aku untuk tempat pulang dan bercerita. Aku mungkin nggak selalu punya solusi untuk semua masalah kamu, tapi aku akan berusaha menjadi seseorang yang mau mendengarkan dan menemani kamu.
+Kalau suatu saat kamu merasa dunia terlalu berat, aku pengen kamu tahu bahwa kamu punya aku untuk tempat pulang dan bercerita. Aku mungkin nggak selalu punya solusi untuk semua masalah kamu, tapi aku akan berusaha menjadi seseorang yang mau mendengarkan dan menemani kamu.
 
 Dan kalau suatu hari nanti kita melihat kembali masa-masa awal hubungan kita ini, aku berharap kita bisa tersenyum sambil berkata,
 
 "Ternyata kita berhasil melewati semuanya."
 
-Dua bulan mungkin baru awal dari perjalanan kita. Masih banyak hal yang belum kita tahu tentang satu sama lain. Masih banyak cerita yang belum kita buat, tempat yang belum kita datangi, tawa yang belum kita bagi, dan kenangan yang belum kita ciptakan.
+Dua bulan mungkin baru awal dari perjalanan kita. Masih banyak hal yang belum kita tahu tentang satu sama lain. Masih banyak cerita yang belum kita buat, tawa yang belum kita bagi, dan kenangan yang belum kita ciptakan.
 
 Aku berharap setelah dua bulan ini, masih ada bulan ketiga, keempat, keenam, satu tahun, dua tahun, dan seterusnya.
 
