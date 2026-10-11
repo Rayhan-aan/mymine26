@@ -36,8 +36,8 @@ const CONFIG = {
   reasons: [
     "Senyuman kamu bikin hari yang berat jadi ringan, cape aku jadi ilang dan hari aku yang biasanya hitam putih jadi lebih berwarna.",
     "Kamu dengerin aku, keluhan aku, bahkan cerita-cerita kecilku yang mungkin garing ataupun ngebosenin.",
-    "Bersama kamu, diam pun terasa nyaman bahkan dengerin grasak grusuknya kamu aja aku udah tenang.",
-    "Tawa kamu, marahnya kamu, khawatirnya kamu adalah suara favoritku, selagi aku denger suara kamu, why not?.",
+    "Sama kamu, diam pun terasa nyaman bahkan dengerin grasak grusuknya kamu aja aku udah tenang.",
+    "Dengerin kamu ngomong, cerita, suara kamu itu suara favorit aku, selagi aku denger suara kamu rasanya tenang banget.",
     "Kamu bikin aku ingin jadi versi terbaik diriku walaupun kadang aku suka bikin kamu kesel.",
     "Karena kamu adalah kamu dan kamu cuman ada 1 di dunia ini sayangg."
   ],
